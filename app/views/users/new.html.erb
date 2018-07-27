@@ -1,4 +1,4 @@
-    <div class="row">
+    <div class="col-lg-offset-2">
             <div class="col-lg-offset-2">
                 <%= form_for @user, html: {class: "form-horizontal"} do |f| %>
 
@@ -16,26 +16,26 @@
             <% end %>
         <div class="col-lg-offset-2">
             <%= f.label :name, "Name", class: "col-md-2 control-label" %>
-            <div class="col-md-6">
+            <div class="col-lg-offset-2">
             <%= f.text_field :name, class: "form-control", placeholder: "Enter user name" %>
             </div>
         </div>
         <div class="col-lg-offset-2">
             <%= f.label :email, "Email", class: "col-md-2 control-label" %>
-            <div class="col-md-6">
+            <div class="col-lg-offset-2">
             <%= f.text_field :email, class: "form-control", placeholder: "Enter user email" %>
             </div>
         </div>
 
         <div class="col-lg-offset-2">
             <%= f.label :password, "Password", class: "col-md-2 control-label" %>
-            <div class="col-md-6">
+            <div class="col-lg-offset-2">
             <%= f.password_field :password, class: "form-control", placeholder: "Enter password" %>
             </div>
         </div>
         <div class="col-lg-offset-2">
             <%= f.label :password_confirmation, "Password Confirmation", class: "col-md-2 control-label" %>
-            <div class="col-md-6">
+            <div class="col-lg-offset-2">
             <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Enter password confirmation" %>
             </div>
         </div>
@@ -46,4 +46,4 @@
         </div>
         <% end %>
     </div>
-    </div>
+  </div>
